@@ -22,6 +22,7 @@ public class N11_Tests {
         assertEquals(Driver.getDriver().getTitle(), "n11 - 10 Üzerinden 11'lik Alışveriş Deneyimi");
         elements.getKampanyaPopup().click();
 
+
         Actions actions = new Actions(Driver.getDriver());
         actions.moveByOffset(1342,20).click().perform();
 
