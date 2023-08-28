@@ -12,11 +12,15 @@ public class Pages {
     public Pages() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
+
     @FindBy(xpath = "(//button[text()='Daha Sonra'])[1]")
     WebElement kampanyaPopup;
 
     public WebElement getKampanyaPopup() {
         return kampanyaPopup;
     }
+
     @FindBy(css = "div.desktop > div > div.banner__accept-button")
     public WebElement kabulEt;
+
+}
