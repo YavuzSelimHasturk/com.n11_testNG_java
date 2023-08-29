@@ -10,6 +10,7 @@ import utils.Driver;
 public class Pages {
 
     public Pages() {
+
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
